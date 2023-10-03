@@ -2,7 +2,6 @@ package computer;
 
 public class CreateComputer {
     public static void main(String[] args) {
-        //Scanner scan = new Scanner(System.in);
 
         Processor amd = new Processor("AMD",16,2.4);
         RAM ram1 = new RAM("DDR",16);
